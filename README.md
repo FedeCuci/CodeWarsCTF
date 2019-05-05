@@ -23,6 +23,6 @@ This is pretty much all there is to setup on the admin end, as create_users.py s
 
 <h3> How to play (client): </h3>
 The first thing that needs to be done is have the credentials for a specific user. These must be given by the challenge administrator, which owns the vps. After that, you can login the server using SSH, like so:
-```ssh server_ip -l username``` Once inside the vps, you must navigate to codewars_ctf/challenges. From there the first script that needs to be run is the ```setup.py```. This script, will ask you for your codewars username (no authentication yet) and it will be the username that all the challenge scripts will use in order to communicate to the codewars API and check whether you have actually completed the challenges.
+ssh server_ip -l username Once inside the vps, you must navigate to codewars_ctf/challenges. From there the first script that needs to be run is the setup.py. This script, will ask you for your codewars username (no authentication yet) and it will be the username that all the challenge scripts will use in order to communicate to the codewars API and check whether you have actually completed the challenges.
 
 From the client side, that is all that needs to be done. Now you can just run all the challenges in order and complete them all! There is actually a little vulnerability in the whole design of the challenges, and a way in which in theory you can get to the last level without completing all the ones before ;)
