@@ -1,0 +1,22 @@
+0-1. Odd or even 5949481f86420f59480000e7
+1-2. Friend or foe - 55b42574ff091733d900002f
+2-3. Round to the next multiple of 5 - 55d1d6d5955ec6365400006d
+3-4. Summing a number's digits - 52f3149496de55aded000410
+4-5. Highest profit wins - 559590633066759614000063
+5-6. Sum of the lowest 2 positive integers - 558fc85d8fd1938afb000014
+6-7. Find the divisors - 544aed4c4a30184e960010f4
+7-8. Reversed strings - 5168bb5dfe9a00b126000018
+8-9. Sum of all the multiples of 3 or 5 - 57f36495c0bb25ecf50000e7
+9-10. Vowel count - 54ff3102c1bad923760001f3
+10-11.Get middle character - 56747fd5cb988479af000028
+11-12. Is a number prime? - 5262119038c0985a5b00029f
+12-13. Shortest word - 57cebe1dc6fdc20c57000ac9
+13-14. Array.diff - 523f5d21c841566fde000009
+14-15. Create phone number - 525f50e3b73515a6db000b83
+15-16. Exes and Ohs - 55908aad6620c066bc00002a
+16-17. Number of people in the bus - 5648b12ce68d9daa6b000099
+17-18. Count characters in your string - 52efefcbcdf57161d4000091
+18-19. IQ Test - 552c028c030765286c00007d
+19-20. Replace with alphabet position - 546f922b54af40e1e90001da
+
+# Make a leaderboard system
