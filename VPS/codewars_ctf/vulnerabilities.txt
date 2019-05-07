@@ -1,0 +1,19 @@
+Current vulnerabilities:
+
+Right now this collection of challenges comes with certain vulnerabilities. These are made on purpose in order to make the player reflect on the security aspect of a system. 
+
+The first and easiest vulnerability to uncover is the permission's vulnerability. The player can simply change the permissions of the challenge files and write any code that would allow him/her to access the last level.
+
+The second vulnerability is that a fake code wars username can be used. Currently, there is no checking whether the player actually owns the code wars account so he/she would be able to simply enter another user's name.
+
+The third vulnerability is that random passwords can be generated in the hidden .passwords file. This is because each script simply checks a given line within the .passwords file. 
+
+Some of these vulnerabilities can be fixed or make them harder to spot or reverse engineer. For example, the challenge scripts could be turned into .pyc scripts so that if the user tries to view the contents of the files, scrambled data will be seen instead of the entire code. (There are ways to reverse engineer this as well but it makes it more difficult)
+
+Furthermore, environment variables could be used in order to obfuscate the location of the passwords a bit more. This works best if used with .pyc files, otherwise it is kind of useless. However, using environment variables would mean hard-coding the passwords in bash.bashrc which allows for easy spread of passwords between users. 
+
+If passwords are randomly generated for each user, there will be no way for the users to share passwords with each other since they are all different. This is of course assuming the fact that no vulnerabilities are being exploited. 
+
+One way to fix the vulnerability of skipping challenges, is to always check if the challenge was complete before giving the link to the next challenge. Currently, the password is given when completed a certain challenge and the next challenge can immediately be run. However, it should be that before running any challenge, the previous challenge must be checked with the code wars API.
+
+There could be other vulnerabilities which I am not aware of, but I think these are the main ones. 
