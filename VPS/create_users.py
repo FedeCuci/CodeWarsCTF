@@ -4,6 +4,9 @@ import random
 import time
 import subprocess
 
+# Note: This script uses the 'newusers' command. More info: https://www.tecmint.com/create-multiple-user-accounts-in-linux/
+# Users are created as 'user1', 'user2', 'user3'... the real names of the students are not used.
+
 #Install PIP
 
 # print('Updating system')
@@ -15,7 +18,6 @@ import subprocess
 #os.system('apt-get install python3-pip -y')
 
 # Generate a random password
-
 def main():
     def randomPassword(stringLength=6):
         lettersAndDigits = string.ascii_letters + string.digits # Store digits and letters in ASCII
