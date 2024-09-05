@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# Simple Gossip Implementation in Python
+# CodeWars Challenges on a Virtual Private Server!
 
 #### 🔧 Made with:
 ![](https://img.shields.io/badge/-Python-informational?style=flat&logo=Python&logoColor=white)
